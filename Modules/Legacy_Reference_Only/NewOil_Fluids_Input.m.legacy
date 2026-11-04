@@ -1,0 +1,9 @@
+% Undersaturated oil, P > Pb only. Pb, Bo(Pb), mu(Pb), Rs(Pb)
+% are ALWAYS taken from the last row of NewOil_Fluid_PVT.DATA / PVT6.
+PVT_INITIAL_PRESSURE_KPA = 28366.0;
+PVT_BO_AT_INITIAL = 1.272068024;
+PVT_MU_AT_INITIAL_CP = 2.335646391;
+PVT_MAX_PRESSURE_KPA = 30000.0;
+PVT_ABOVE_PB_MODE = 'LINEAR'; % validated v28; optional 'COMPRESSIBILITY' for Bo
+PVT_OIL_COMPRESSIBILITY_1_KPA = 0; % used only with COMPRESSIBILITY mode
+% Water viscosity and compressibility remain governed by PVTW in the fluid table.

@@ -1,0 +1,10 @@
+% NewOil_v30: validated v29 timestep and calendar configuration.
+DTINIT_DAYS = 0.1;
+DTMIN_DAYS = 0.001;
+DTMAX_DAYS = 31;
+DTGROW = 1.15;
+MAX_STEP_CUTS = 12;
+MAX_WCUT_STEP = 0.02;
+START_DATE = '2000-01-01';
+assert(DTINIT_DAYS>0 && DTMIN_DAYS>0 && DTMAX_DAYS>=DTINIT_DAYS);
+assert(DTGROW>=1 && MAX_STEP_CUTS>=0 && MAX_WCUT_STEP>0);

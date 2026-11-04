@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use NewOil_barrier in your research, please cite this software release."
+title: "NewOil_barrier: Radial–Vertical Multiphase Reservoir Simulation with Aquifer Support and Permeability Barriers"
+type: software
+authors:
+  - family-names: Zarubin
+    given-names: Yuriy
+version: 1.0.0
+date-released: 2026-11-04
+license: MIT
