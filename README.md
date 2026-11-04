@@ -1,5 +1,8 @@
 # NewOil_barrier
-
+**Latest archived release:** v1.0.1
+**DOI:** https://doi.org/10.5281/zenodo.23951873
+**Author:** Yuriy Zarubin
+**License:** MIT
 **Radial–vertical multiphase reservoir simulation with aquifer support and local permeability barriers**
 
 Research software written for GNU Octave and the MATLAB Reservoir Simulation Toolbox (MRST). This repository preserves the tested NewOil_v31 source code as a baseline for subsequent studies of permeability-barrier effects on water coning.
